@@ -1,0 +1,301 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Adelia Dalo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #eef5fc;
+            color: #24364b;
+        }
+
+        header {
+            background-color: #102747;
+            color: white;
+            text-align: center;
+            padding: 35px;
+        }
+
+        nav {
+            background-color: #2876bd;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 12px;
+            font-weight: bold;
+        }
+
+        section {
+            background-color: white;
+            margin: 25px auto;
+            padding: 25px;
+            width: 85%;
+            border-radius: 12px;
+            box-shadow: 0 3px 10px #00000015;
+        }
+
+        h2 {
+            color: #174b7a;
+            border-bottom: 2px solid #2876bd;
+            padding-bottom: 10px;
+        }
+
+        .foto {
+            width: 170px;
+            height: 190px;
+            object-fit: cover;
+            border-radius: 15px;
+            border: 4px solid white;
+        }
+
+        .biodata {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        .kartu {
+            background-color: #eaf3fc;
+            padding: 15px;
+            border-radius: 10px;
+            flex: 1 1 220px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid #b7cde0;
+            padding: 12px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #174b7a;
+            color: white;
+        }
+
+        .pengalaman {
+            background-color: #eaf3fc;
+            padding: 18px;
+            margin-bottom: 15px;
+            border-radius: 10px;
+        }
+
+        footer {
+            background-color: #102747;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        @media(max-width:600px) {
+            nav a {
+                display: inline-block;
+                margin: 7px;
+            }
+
+            section {
+                width: 88%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <img src="foto saya.JPEG " alt="Foto Adelia Dalo" class="foto">
+    <h1>PORTOFOLIO DIRI</h1>
+    <h2 style="color:white; border:none;">Adelia Dalo</h2>
+    <p>Mahasiswa Pendidikan Matematika</p>
+    <p>PSDKU Kab. Maluku Barat DayaUniversitas Pattimura</p>
+</header>
+
+<nav>
+    <a href="#tentang">Tentang Saya</a>
+    <a href="#biodata">Biodata</a>
+    <a href="#pendidikan">Pendidikan</a>
+    <a href="#pengalaman">Pengalaman</a>
+    <a href="#karya">Karya</a>
+    <a href="#tujuan">Harapan</a>
+</nav>
+
+<section id="tentang">
+    <h2>1. Tentang Saya</h2>
+    <p>
+        Perkenalkan, nama saya Adelia Dalo. Saya merupakan
+        mahasiswa Program Studi Pendidikan Matematika PSDKU Kab.Maluku Barat Daya
+        Universitas Pattimura.
+    </p>
+    <p>
+        Saya adalah pribadi yang memiliki semangat untuk
+        terus belajar, mencoba hal-hal baru, dan
+        mengembangkan kemampuan diri. Saya percaya bahwa
+        setiap pengalaman dapat memberikan pelajaran
+        yang bermanfaat untuk masa depan.
+    </p>
+</section>
+
+<section id="biodata">
+    <h2>2. Biodata Diri</h2>
+
+    <div class="biodata">
+        <div class="kartu">
+            <b>Nama Lengkap</b>
+            <p>Adelia Dalo</p>
+        </div>
+
+        <div class="kartu">
+            <b>NIM</b>
+            <p>202489010</p>
+        </div>
+
+        <div class="kartu">
+            <b>Program Studi</b>
+            <p>Pendidikan Matematika</p>
+        </div>
+
+        <div class="kartu">
+            <b>Perguruan Tinggi</b>
+            <p>Universitas Pattimura</p>
+        </div>
+
+        <div class="kartu">
+            <b>Asal Daerah</b>
+            <p>Letty, Maluku Barat Daya</p>
+        </div>
+    </div>
+</section>
+
+<section id="pendidikan">
+    <h2>3. Riwayat Pendidikan</h2>
+
+    <table>
+        <tr>
+            <th>No.</th>
+            <th>Jenjang</th>
+            <th>Nama Sekolah</th>
+            <th>Keterangan</th>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>SD</td>
+            <td>SD Inpres Tomra</td>
+            <td>Lulus</td>
+        </tr>
+
+        <tr>
+            <td>2</td>
+            <td>SMP</td>
+            <td>SMP Negeri 1 Lemola</td>
+            <td>Lulus</td>
+        </tr>
+
+        <tr>
+            <td>3</td>
+            <td>SMA</td>
+            <td>SMA 12 Maluku Barat Daya</td>
+            <td>Lulus</td>
+        </tr>
+
+        <tr>
+            <td>4</td>
+            <td>Perguruan Tinggi</td>
+            <td>Universitas Pattimura</td>
+            <td>Sedang Menempuh Pendidikan</td>
+        </tr>
+    </table>
+</section>
+
+<section id="pengalaman">
+    <h2>4. Pengalaman dan Aktivitas</h2>
+
+    <div class="pengalaman">
+        <h3>Presentasi Perkuliahan</h3>
+        <p>
+            Mengikuti kegiatan presentasi di kelas untuk
+            melatih keberanian berbicara dan menyampaikan materi.
+        </p>
+    </div>
+
+    <div class="pengalaman">
+        <h3>Belajar Pemrograman</h3>
+        <p>
+            Mempelajari dasar-dasar HTML
+            melalui kegiatan pembelajaran.
+        </p>
+    </div>
+
+    <div class="pengalaman">
+        <h3>Membuat Presentasi</h3>
+        <p>
+            Menyusun materi pembelajaran dalam bentuk
+            slide presentasi menggunakan Canva.
+            <a href="https://canva.link/ay6bxds0r8lcdqt">klik di sini</a>
+
+        </p> 
+    </div>
+</section>
+
+<section id="karya">
+    <h2>5. Karya dan Proyek Pembelajaran</h2>
+
+    <div class="pengalaman">
+        <h3>Website Pantai Syota</h3>
+        <p>
+            Membuat website sederhana yang berisi informasi
+            mengenai keindahan Pantai Syota.
+            <a href="file:///C:/Users/joela/Downloads/pert%208%20adel%2017.html">klik di sini</a>
+
+        </p>
+    </div>
+
+   
+
+</section>
+
+<section id="tujuan">
+    <h2>6. Tujuan dan Harapan</h2>
+
+    <p>
+        Saya berharap dapat menyelesaikan pendidikan
+        di Universitas Pattimura dengan baik.
+    </p>
+
+    <p>
+        Saya juga ingin terus menambah pengalaman,
+        memperluas pengetahuan, dan mengembangkan diri
+        agar dapat menjadi seorang pendidik yang
+        profesional, kreatif, dan bertanggung jawab.
+    </p>
+</section>
+
+<section>
+    <h2>7. Motto Hidup</h2>
+
+    <p>
+        "Jangan takut mencoba dan jangan menyerah dalam
+        proses, karena setiap langkah kecil adalah bagian
+        dari perjalanan menuju kesuksesan."
+    </p>
+</section>
+
+<footer>
+    <p>Terima kasih telah mengunjungi portofolio saya.</p>
+    <p>© 2026 Portofolio Adelia Dalo</p>
+</footer>
+
+</body>
+</html>
